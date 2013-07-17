@@ -7,7 +7,7 @@ Brainstorming on Validation as an Extension:
  * test.Validate(RuleSet) -- for a set of rules dynamically defined
   * Or test.Validate() which sets of generic rules for that kind of object
       {... 
-        public static Validate(this TestObject)
-            (
-                return  Rule1(TestObject).Rule2(TestObject)....
-             )
+		public static Validate(this TestObject)
+			(
+				return  Rule1(TestObject).Rule2(TestObject)....
+			)
